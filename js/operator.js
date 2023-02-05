@@ -202,11 +202,11 @@ suporter.addEventListener("click", () => {
   specialist.classList.add("animated-out")
   amiyaContainer.classList.add("slide-out");
   setTimeout(() => {
-    window.location = "./Supporter/Supporter.html";
+    window.location = "./Supporter/supporter.html";
   }, 600); 
 });
 suporter.addEventListener("mouseover", () => {
-  popupImage.src = "../gambar/supporter.webp";
+  popupImage.src = "../gambar/Supporter.webp";
   popupImageContainer.style.display = "block";
   amiyaContainer.style.display = "block";
   explanatoryText.innerHTML = "Supporter operator memiliki keunikan, mereka memiliki kemampuan untuk membantu operator lain seperti memberikan buff seperti damage, deffend dan resistance tambahan kepada operator lain, mengurangi deffend atau art resistance musuh, dan memperlambat pergerakan musuh";
