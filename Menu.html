@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Menu</title>
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+
+<audio id="myAudio" autoplay>
+  <source src="./Audio/1-sys_void.mp3" type="audio/mpeg">
+</audio>
+
+<img src="./gambar/mute.png" id="playButton" onclick="playPause()" class="play" style="width: 2.5%; height: 5%;">
+<img src="./gambar/music-2-512.png" id="playButton" onclick="playPause()" class="musik" style="width: 2.5%; height: 5%;" >
+
+<body style="background-image: url(./gambar/bg_corridor.png); background-repeat: no-repeat; background-size: 100% 100% ; background-attachment: fixed ;">
+  <div class="menu">
+    <ul>
+      <li>
+        <div class="menu-item" id="home-item">
+          <a href="#">Lore</a>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-item" id="operators-item">
+          <a href="#">Operators</a>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-item" id="equipment-item">
+          <a href="#">Dunia</a>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-item" id="missions-item">
+          <a href="#">Gameplay</a>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-item" id="settings-item">
+          <a href="#">Tentang Arknights</a>
+        </div>
+      </li>
+
+    </ul>
+
+    <div class="Amiya-container" id="amiya-container" alt="Amiya" style="width: 500%; height: 192.2%; position: absolute;">
+      <img src="./gambar/char_002_amiya_2.png" id="amiya" alt="Amiya">
+      <p id="explanatory-text">Selamat datang di perpustakaan Rhodes Island berbahasa Indonesia. Apa yang Dokter ingin ketahui tentang Arknights ada disini, owh perlu diingat bahwa perpustakaan ini masih dalam tahap perkembangan, jadi masih ada beberapa informasi yang belum dimasukan </p>
+    </div>
+
+  </div>
+
+  <div id="popup-image-container">
+    <img src="path/to/image" id="popup-image">
+  </div>
+
+  <script src="./js/java.js"></script> 
+     
+</body>
+</html>
