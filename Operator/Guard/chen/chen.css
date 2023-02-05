@@ -1,0 +1,184 @@
+.text-box {
+    width: 30%;
+    height: 500px;
+    overflow-y: scroll;
+    padding: 20px;
+    background-color: #0000006c;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    position: absolute;
+    left: 1.5%;
+    top: 27%;
+    transform: translateY(-50%);
+    animation: slide-in-left 1s ease-out forwards;
+  }
+  
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+  }
+
+  .text-box.slide-out {
+    animation: slide-out 0.5s forwards;
+  }
+  
+  @keyframes slide-out {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+  .image-container {
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    animation: slide-in-right 1s ease-out forwards;
+
+  }
+  
+  #image {
+    width: 90%;
+    height: fit-content;
+    object-fit: cover;
+  }
+  
+  button {
+    background: transparent;
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .button-left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+  
+  .button-right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+  }
+  
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+  .menu 
+{
+    background-color: #1e1e1e00;
+    width: 150px;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+  
+.menu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li
+{
+    margin: 10px 0;
+}
+  
+.menu-item 
+{
+    background-color: #3D3D3D;
+    border: 1px solid #3D3D3D;
+    padding: 10px;
+    box-sizing: border-box;
+}
+  
+.menu a
+{
+    color: #B8B8B8;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+}
+  
+.menu a:hover
+{
+    background-color: #9c9c9c;
+    color: #FFFFFF;
+}
+
+.menu-animation {
+    animation: slideIn 1.5s ease-out forwards;
+}
+
+.menu-item:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.animated-out {
+    transition: all 0.5s ease-in-out;
+    transform: scale(0);
+  }
+  
+  @keyframes slide-out {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+  @keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.play {
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
+.pause {
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+} 
+.musik {
+  display: block;
+  position: absolute;
+  top: 90%;
+  left: 94.5%;
+  transform: translate(-50%, -50%);
+}
