@@ -1,0 +1,131 @@
+.chen-container {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  animation: slideInChen 1s ease-in-out;
+}
+
+#chen {
+  width: 45%;
+  height: fit-content;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+#chen:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@keyframes slideInChen {
+  from {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+.menu 
+{
+    background-color: #1e1e1e00;
+    width: 150px;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+  
+.menu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li
+{
+    margin: 10px 0;
+}
+  
+.menu-item 
+{
+    background-color: #3D3D3D;
+    border: 1px solid #3D3D3D;
+    padding: 10px;
+    box-sizing: border-box;
+}
+  
+.menu a
+{
+    color: #B8B8B8;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+}
+  
+.menu a:hover
+{
+    background-color: #9c9c9c;
+    color: #FFFFFF;
+}
+
+.menu-animation {
+    animation: slideIn 1.5s ease-out forwards;
+}
+
+.menu-item:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.animated-out {
+    transition: all 0.5s ease-in-out;
+    transform: scale(0);
+  }
+  
+  @keyframes slide-out {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+  @keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.play {
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
+.pause {
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+} 
+.musik {
+  display: block;
+  position: absolute;
+  top: 90%;
+  left: 94.5%;
+  transform: translate(-50%, -50%);
+}
