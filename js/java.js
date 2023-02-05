@@ -84,7 +84,7 @@ missionsItem.addEventListener("click", () => {
   settingsItem.classList.add("animated-out");
   amiyaContainer.classList.add("slide-out");
   setTimeout(() => {
-    window.location = "./Gameplay/Gameplay.html";
+    window.location = "./Gameplay/gameplay.html";
   }, 600); 
 });
 missionsItem.addEventListener("mouseover", () => {
