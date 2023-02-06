@@ -1,3 +1,7 @@
+//Azra Fadhil Shadiq
+//10122319
+//IF 9
+
 const homeItem = document.getElementById("home-item");
 const chen = document.getElementById("chen");
 
