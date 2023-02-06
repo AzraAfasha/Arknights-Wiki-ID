@@ -1,3 +1,7 @@
+//Azra Fadhil Shadiq
+//10122319
+//IF 9
+
 const image = document.getElementById("image");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
